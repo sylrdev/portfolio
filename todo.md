@@ -1,7 +1,5 @@
-- make navigation bar sticky
 - tweak font sizes
 - put status in a clear box
-- clickable card link
 - project cards styling
 - tweak footer styling
 - fill with content
