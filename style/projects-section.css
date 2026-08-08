@@ -1,0 +1,18 @@
+#projects {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 300px);
+  gap: 30px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid rgba(0, 255, 0, 0.15);
+  border-radius: 12px;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}

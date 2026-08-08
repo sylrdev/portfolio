@@ -1,3 +1,11 @@
 #about {
-  background-color: gray;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#status {
+  border: 2px solid;
+  border-image: linear-gradient(to right, transparent, #ebebeb, transparent) 1;
 }
