@@ -41,7 +41,13 @@ export default function projectCard(title, img, desc, tags, links) {
   for (const [key, value] of Object.entries(links)) {
     const linkElt = document.createElement("div");
     linkElt.className = "link";
-    linkElt.textContent = key;
+
+    const aElt = document.createElement("a");
+    aElt.href = value;
+    aElt.target = "_blank";
+    aElt.textContent = key;
+
+    linkElt.appendChild(aElt);
     linksContainer.appendChild(linkElt);
   }
 

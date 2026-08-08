@@ -1,8 +1,11 @@
 #projects {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(3, 300px);
-  gap: 30px;
+  grid-template-columns: repeat(3, 320px);
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 255, 0, 0.15);
 }
 
 .card {
