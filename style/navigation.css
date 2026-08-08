@@ -1,0 +1,24 @@
+nav {
+  align-items: end;
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: white;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 10px;
+}

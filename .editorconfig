@@ -3,3 +3,11 @@ root = true
 [*.html]
 indent_size = 2
 indent_type = space
+
+[*.css]
+indent_size = 2
+indent_type = space
+
+[*.js]
+indent_size = 2
+indent_type = space
