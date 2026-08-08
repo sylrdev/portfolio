@@ -1,5 +1,8 @@
 header {
   border: 2px #1c1c1c dashed;
+  position: sticky;
+  top: 0;
+  background-color: #0d0d0d;
 }
 
 nav ul {
