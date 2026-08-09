@@ -91,3 +91,5 @@ projectCard(
     Wally: "https://wally.run/package/sylrdev/remotes",
   },
 );
+
+console.log("Please work CI. :pray:");
