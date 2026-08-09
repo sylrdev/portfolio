@@ -17,6 +17,17 @@ projectCard(
 );
 
 projectCard(
+  "Realms Legacy",
+  "",
+  "Roblox sandbox fantasy MMORPG. Close source. Still in development.",
+  ["luau"],
+  {
+    "Discord Server": "https://discord.gg/tK7KE5rBSS",
+    Devlog: "https://youtu.be/Uhx6SgowcIo?si=uJKOgIg0OL2cLPde",
+  },
+);
+
+projectCard(
   "UmberPrices",
   "",
   "Small python script to fetch the best umber-made items to craft for profit on Hypixel Skyblock using the Hypixel API.",

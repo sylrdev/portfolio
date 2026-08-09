@@ -41,16 +41,7 @@
   border: 1.5px white solid;
   background-color: gray;
   border-radius: 2px;
-}
-
-.tag-nix {
-  border-color: mediumpurple;
-  background-color: rebeccapurple;
-}
-
-.tag-lua {
-  border-color: deepskyblue;
-  background-color: dodgerblue;
+  color: white;
 }
 
 .links-container {
