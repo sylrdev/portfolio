@@ -3,3 +3,4 @@
 - project cards styling
 - tweak footer styling
 - fill with content
+- add bg grid

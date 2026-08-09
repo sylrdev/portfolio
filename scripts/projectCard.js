@@ -25,6 +25,7 @@ export default function projectCard(title, img, desc, tags, links) {
 
   // tags
   const tagsContainer = document.createElement("div");
+  tagsContainer.className = "tags-container";
 
   tags.forEach((tag) => {
     const tagElt = document.createElement("div");
@@ -37,6 +38,7 @@ export default function projectCard(title, img, desc, tags, links) {
 
   // links
   const linksContainer = document.createElement("div");
+  linksContainer.className = "links-container";
 
   for (const [key, value] of Object.entries(links)) {
     const linkElt = document.createElement("div");

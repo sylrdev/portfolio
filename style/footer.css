@@ -1,7 +1,6 @@
 @import "./colors.css";
 
 footer {
-  margin-top: 20px;
   background-color: var(--black-1);
   height: 50px;
   align-items: center;
@@ -18,5 +17,5 @@ footer ul {
 
 footer ul li {
   float: left;
-  padding: 10px 20px;
+  padding: 15px;
 }

@@ -8,16 +8,43 @@
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .card {
-  padding: 20px;
-  border-radius: 12px;
   background-color: var(--black-1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card * {
+  padding: 0;
+  margin: 0;
 }
 
 .card img {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
+}
+
+.tags-container {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 3px;
+  border: 1.5px white solid;
+  background-color: gray;
+  border-radius: 2px;
+}
+
+.links-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }

@@ -5,16 +5,18 @@
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
-  margin-bottom: 10px;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#about h2 {
+  padding-bottom: 50px;
 }
 
 #status {
-  border: 2px solid;
-  border-image: linear-gradient(
-      to right,
-      transparent,
-      var(--white-1),
-      transparent
-    )
-    1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: var(--black-1);
+  border: 1px var(--white-2) solid;
 }
