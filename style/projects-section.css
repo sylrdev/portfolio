@@ -1,17 +1,19 @@
+@import "./colors.css";
+
 #projects {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(3, 320px);
+  grid-template-columns: repeat(auto-fit, 320px);
   gap: 20px;
-  width: 80%;
+  width: 90%;
+  max-width: 1000px;
   margin: 0 auto;
-  border: 1px solid rgba(0, 255, 0, 0.15);
 }
 
 .card {
   padding: 20px;
-  border: 1px solid rgba(0, 255, 0, 0.15);
   border-radius: 12px;
+  background-color: var(--black-1);
 }
 
 .card img {

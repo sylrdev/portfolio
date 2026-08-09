@@ -1,11 +1,18 @@
+@import "./colors.css";
+
 footer {
   margin-top: 20px;
-  border: 2px #1c1c1c dashed;
+  background-color: var(--black-1);
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 footer ul {
   display: flex;
   justify-content: center;
+  align-items: center;
   list-style-type: none;
 }
 

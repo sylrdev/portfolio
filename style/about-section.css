@@ -1,11 +1,20 @@
+@import "./colors.css";
+
 #about {
   text-align: center;
-  width: 80%;
+  width: 90%;
+  max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 10px;
 }
 
 #status {
   border: 2px solid;
-  border-image: linear-gradient(to right, transparent, #ebebeb, transparent) 1;
+  border-image: linear-gradient(
+      to right,
+      transparent,
+      var(--white-1),
+      transparent
+    )
+    1;
 }

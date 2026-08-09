@@ -1,8 +1,10 @@
+@import "./colors.css";
+
 header {
-  border: 2px #1c1c1c dashed;
+  border: 2px var(--black-2) dashed;
   position: sticky;
   top: 0;
-  background-color: #0d0d0d;
+  background-color: var(--black-1);
 }
 
 nav ul {
@@ -23,4 +25,9 @@ nav ul li a {
   text-decoration: none;
   text-align: center;
   padding: 10px 10px;
+  transition: background-color 200ms ease;
+}
+
+nav ul li a:hover {
+  background-color: var(--black-2);
 }
