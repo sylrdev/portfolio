@@ -14,9 +14,18 @@
   padding-bottom: 50px;
 }
 
+#about h3 {
+  color: var(--white-2);
+}
+
 #status {
   margin-top: 50px;
   margin-bottom: 50px;
   background-color: var(--black-1);
   border: 1px var(--white-2) solid;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+#status h3 {
+  color: var(--white-1);
 }
