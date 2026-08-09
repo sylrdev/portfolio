@@ -1,24 +1,8 @@
 import projectCard from "./projectCard.js";
 
 projectCard(
-  "NixOS Config",
-  "",
-  "Linux NixOS configuration I use on my work laptop. Fully decked out for a Roblox and virtual machine efficient workflow.",
-  ["nix", "lua"],
-  { GitHub: "https://github.com/sylrdev/nixos-config" },
-);
-
-projectCard(
-  "NeoVim Config",
-  "",
-  "NeoVim configuration I use when working on other operating system than NixOS. Roblox development ready.",
-  ["lua"],
-  { GitHub: "https://github.com/sylrdev/nvim-config" },
-);
-
-projectCard(
   "Realms Legacy",
-  "",
+  "assets/realms-legacy-preview.png",
   "Roblox sandbox fantasy MMORPG. Close source. Still in development.",
   ["luau"],
   {
@@ -29,7 +13,7 @@ projectCard(
 
 projectCard(
   "UmberPrices",
-  "",
+  "assets/umber-prices-preview.png",
   "Small python script to fetch the best umber-made items to craft for profit on Hypixel Skyblock using the Hypixel API.",
   ["python", "api"],
   { GitHub: "https://github.com/sylrdev/UmberPrices/tree/master" },
@@ -37,7 +21,7 @@ projectCard(
 
 projectCard(
   "Logger",
-  "",
+  "assets/logger-preview.png",
   "Open source Roblox library that handles easy logging. It uses OOP and wraps print, warn and error.",
   ["luau"],
   {
@@ -48,7 +32,7 @@ projectCard(
 
 projectCard(
   "VideKit",
-  "",
+  "assets/vide-kit-preview.png",
   "Open source Roblox library that wraps Vide's create function. It serves most UI related instances and some custom ones with opinionated default properties.",
   ["luau"],
   {
@@ -58,8 +42,24 @@ projectCard(
 );
 
 projectCard(
+  "NixOS Config",
+  "assets/nixos-config-preview.png",
+  "Linux NixOS configuration I use on my work laptop. Fully decked out for a Roblox and virtual machine efficient workflow.",
+  ["nix", "lua"],
+  { GitHub: "https://github.com/sylrdev/nixos-config" },
+);
+
+projectCard(
+  "NeoVim Config",
+  "assets/neovim-config-preview.png",
+  "NeoVim configuration I use when working on other operating system than NixOS. Roblox development ready.",
+  ["lua"],
+  { GitHub: "https://github.com/sylrdev/nvim-config" },
+);
+
+projectCard(
   "Bundle",
-  "",
+  "assets/bundle-preview.png",
   "Open source Roblox library that handles initialization of services/controllers oriented architectures.",
   ["luau"],
   {
@@ -70,7 +70,7 @@ projectCard(
 
 projectCard(
   "Roblox Utils",
-  "",
+  "assets/roblox-utils-preview.png",
   "Open source Roblox libraries that provide number, string, table and server utility functions. One of my early projects.",
   ["luau"],
   {
@@ -83,7 +83,7 @@ projectCard(
 
 projectCard(
   "Remotes",
-  "",
+  "assets/remotes-preview.png",
   "Roblox remote event wrapper. It allows RemoteEvent, RemoteFunction and UnreliableRemoteEvent instance declarative creation.",
   ["luau"],
   {
