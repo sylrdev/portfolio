@@ -14,7 +14,7 @@ projectCard(
 projectCard(
   "UmberPrices",
   "assets/umber-prices-preview.png",
-  "Small python script to fetch the best umber-made items to craft for profit on Hypixel Skyblock using the Hypixel API.",
+  "Small python script to fetch the best umber-made items to craft for profit on Hypixel Skyblock, using the Hypixel API.",
   ["python", "api"],
   { GitHub: "https://github.com/sylrdev/UmberPrices/tree/master" },
 );
@@ -52,7 +52,7 @@ projectCard(
 projectCard(
   "NeoVim Config",
   "assets/neovim-config-preview.png",
-  "NeoVim configuration I use when working on other operating system than NixOS. Roblox development ready.",
+  "NeoVim configuration I use when working on operating systems other than NixOS. Roblox development ready.",
   ["lua"],
   { GitHub: "https://github.com/sylrdev/nvim-config" },
 );
