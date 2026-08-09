@@ -1,6 +1,1 @@
-- tweak font sizes
-- put status in a clear box
-- project cards styling
-- tweak footer styling
-- fill with content
-- add bg grid
+Nothing to do anymore.
