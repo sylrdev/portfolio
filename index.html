@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
     <title>Sy - Roblox Programmer</title>
     <link rel="icon" href="./assets/favicon.jpg" />
-    <script type="module" src="./scripts/main.js"></script>
     <link rel="stylesheet" href="./style/main.css" />
   </head>
 
   <body>
+    <script type="module" src="./scripts/main.js"></script>
+
+    <script>
+      function copyDiscordUsername() {
+        navigator.clipboard.writeText("sylrdev");
+        alert("Copied username to clipboard.");
+      }
+    </script>
+
     <header>
       <nav>
         <ul>
@@ -41,7 +49,8 @@
           GitHub:
           <a href="https://github.com/sylrdev" target="_blank">@sylrdev</a
           ><br />
-          E-mail: <a href="mailto:sylrdev@gmail.com">sylrdev@gmail.com</a>
+          E-mail: <a href="mailto:sylrdev@gmail.com">sylrdev@gmail.com</a><br />
+          Discord: <a href="" onclick="copyDiscordUsername()">sylrdev</a>
         </h3>
 
         <div id="status">
@@ -66,8 +75,8 @@
         <li>
           <a href="https://x.com/sylrdev" target="_blank">Twitter</a>
         </li>
-        <li>
-          <a href="sylrdev">Discord</a>
+        <li id="discord">
+          <a href="#discord" onclick="copyDiscordUsername()">Discord</a>
         </li>
       </ul>
     </footer>
