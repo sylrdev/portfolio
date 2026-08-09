@@ -1,6 +1,9 @@
 const clientTags = {
+  nix: "Nix",
+  lua: "Lua",
   luau: "Luau",
-  rokit: "Rokit",
+  python: "Python",
+  api: "API",
 };
 
 export default function projectCard(title, img, desc, tags, links) {

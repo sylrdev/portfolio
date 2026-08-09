@@ -1,7 +1,82 @@
 import projectCard from "./projectCard.js";
 
-projectCard("Test", "./assets/favicon.jpg", "Lorem ipsum", ["luau", "rokit"], {
-  GitHub: "https://github.com/",
-});
+projectCard(
+  "NixOS Config",
+  "",
+  "Linux NixOS configuration I use on my work laptop. Fully decked out for a Roblox and virtual machine efficient workflow.",
+  ["nix", "lua"],
+  { GitHub: "https://github.com/sylrdev/nixos-config" },
+);
 
-console.log("Hello world!");
+projectCard(
+  "NeoVim Config",
+  "",
+  "NeoVim configuration I use when working on other operating system than NixOS. Roblox development ready.",
+  ["lua"],
+  { GitHub: "https://github.com/sylrdev/nvim-config" },
+);
+
+projectCard(
+  "UmberPrices",
+  "",
+  "Small python script to fetch the best umber-made items to craft for profit on Hypixel Skyblock using the Hypixel API.",
+  ["python", "api"],
+  { GitHub: "https://github.com/sylrdev/UmberPrices/tree/master" },
+);
+
+projectCard(
+  "Logger",
+  "",
+  "Open source Roblox library that handles easy logging. It uses OOP and wraps print, warn and error.",
+  ["luau"],
+  {
+    GitHub: "https://github.com/sylrdev/Logger",
+    Wally: "https://wally.run/package/sylrdev/logger",
+  },
+);
+
+projectCard(
+  "VideKit",
+  "",
+  "Open source Roblox library that wraps Vide's create function. It serves most UI related instances and some custom ones with opinionated default properties.",
+  ["luau"],
+  {
+    GitHub: "https://github.com/sylrdev/VideKit",
+    Wally: "https://wally.run/package/sylrdev/videkit",
+  },
+);
+
+projectCard(
+  "Bundle",
+  "",
+  "Open source Roblox library that handles initialization of services/controllers oriented architectures.",
+  ["luau"],
+  {
+    GitHub: "https://github.com/sylrdev/Bundle",
+    Wally: "https://wally.run/package/sylrdev/bundle",
+  },
+);
+
+projectCard(
+  "Roblox Utils",
+  "",
+  "Open source Roblox libraries that provide number, string, table and server utility functions. One of my early projects.",
+  ["luau"],
+  {
+    NumberUtils: "https://github.com/sylrdev/NumberUtils",
+    StringUtils: "https://github.com/sylrdev/StringUtils",
+    TableUtils: "https://github.com/sylrdev/TableUtils",
+    ServerUtils: "https://github.com/sylrdev/ServerUtils",
+  },
+);
+
+projectCard(
+  "Remotes",
+  "",
+  "Roblox remote event wrapper. It allows RemoteEvent, RemoteFunction and UnreliableRemoteEvent instance declarative creation.",
+  ["luau"],
+  {
+    GitHub: "https://github.com/sylrdev/Remotes/",
+    Wally: "https://wally.run/package/sylrdev/remotes",
+  },
+);
